@@ -1,0 +1,542 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+ul {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+
+}
+
+ul {
+  padding-bottom: 18px;
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+.navbar {
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar ul li a {
+  display:flex ;
+align-items: center;
+padding: 10PX 15PX;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.current {
+  background: #444;
+  color: rgb(185, 62, 185);
+}
+
+.showcase {
+  background: url(/images/hotel.jpg) no-repeat center center/cover;
+  height: 800px;
+}
+
+.showcase-content {
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.firsttxt {
+  color: rgb(185, 62, 185);
+}
+
+.back {
+  color: rgb(185, 62, 185);
+}
+
+.lead {
+  font-size: 20px;
+  font-family: tahoma;
+  font-weight: bold;
+  line-height: 1.7em;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background: #1a1a1a;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  padding: 13px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.btnZ{
+  display: inline-block;
+  color: white;
+  background: #1a1a1a;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  padding: 13px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.btnZ:hover {
+  display: inline-block;
+  color: white;
+  background:rgb(185, 62, 185);
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  padding: 13px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.btnE{
+  display: inline-block;
+   color: white;
+  background:rgb(215, 214, 214);
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  padding: 13px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.btnE:hover{
+  background:rgb(185, 62, 185);
+  color: white;
+}
+
+
+.btnlight {
+  color: white;
+  background: rgb(224, 222, 222);
+  font-weight: bold;
+}
+
+.bgdark {
+  background: #1a1a1a;
+  color: white;
+}
+
+.bgprimary {
+  color: white;
+  background: rgb(185, 62, 185);
+}
+#fa{
+  color: rgb(230, 230, 230);
+}
+
+.btn .btnlight{
+  color: white;
+}
+.btn .btnlight :hover{
+  color: white;
+  background: rgb(185, 62, 185);
+}
+
+#homeinfo {
+  display: flex;
+  
+  height: auto;
+}
+
+#homeinfo .infoimg {
+  
+  background: url('/images/photo-1.jpg') no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+#homeinfo .infocontent {
+ 
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#features {
+  display: flex;
+justify-content: space-between;
+  gap: 25px;
+  padding: 25px;
+}
+
+.box {
+ 
+  padding: 50px;
+  text-align: center;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+#middle{
+  background: rgb(185, 62, 185);
+}
+#aboutinfo .container{
+  display: flex;
+padding: 10PX;
+  justify-content: space-between;
+}
+#aboutinfo .infoleft{
+  width: 800PX;
+
+  padding: 20px;
+text-align: left;
+  margin-right: 0PX;
+  border-radius: 10px;
+    line-height: 2em;
+    margin-left: 40PX;
+    height: 300PX;
+   
+}
+#aboutinfo .inforight{
+  flex: 1 1 50%;
+  padding:  0px;
+justify-content: center;
+  text-align: center;
+height: 300PX;
+
+  border-radius: 10px;
+
+  
+}
+#aboutinfo .inforight img{
+  width: 300PX;
+  height: 220PX;
+  display: block;
+  margin-top: 40PX;
+
+padding: 0PX;
+ border-radius: 50%;
+}
+
+
+#testimonials {
+  height: 600px;
+  background: url('/images/test-bg.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials .lhead {
+  text-align: center;
+  padding-bottom: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+#testimonials .testimonial {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.mainfooter {
+  color: white;
+  padding: 20px;
+  background: #444;
+  text-align: center;
+}
+
+#contactform .formgroup {
+  margin-bottom: 20px;
+}
+
+#contactform .formgroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contactform input,
+#contactform textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#contactform textarea {
+  height: 200px;
+}
+
+#contactform input:focus,
+#contactform textarea:focus {
+  border-color: rgb(185, 62, 185);
+  outline: none;
+}
+
+#contactinfo .container {
+  display: flex;
+  padding: 10PX;
+background: #1a1a1a;
+
+} 
+#contactinfo .container .box{
+  width: 333px;
+  justify-content: space-between;
+  background: #1a1a1a;
+
+}
+.showcase {
+  background: url(/images/hotel.jpg) no-repeat center center/cover;
+  height: 800px;
+}
+
+.showcase-content {
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.firsttxt {
+  color: rgb(185, 62, 185);
+}
+
+.back {
+  color: rgb(185, 62, 185);
+}
+
+.lead {
+  font-size: 20px;
+  font-family: tahoma;
+  font-weight: bold;
+  line-height: 1.7em;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background: #1a1a1a;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  padding: 13px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.btnlight {
+  color: black;
+  background: rgb(224, 222, 222);
+  font-weight: bold;
+}
+
+.bgdark {
+  background: #1a1a1a;
+  color: white;
+}
+
+.bgprimary {
+  color: #1a1a1a;
+  background: rgb(185, 62, 185);
+}
+
+.btn:hover {
+  background: rgb(185, 62, 185);
+  color: black;
+}
+
+#homeinfo {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+#homeinfo .infoimg {
+  flex: 1 1 50%;
+  background: url('/images/photo-1.jpg') no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+#homeinfo .infocontent {
+  flex: 1 1 50%;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.box {
+   padding: 50px;
+  text-align: center;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+#testimonials {
+  height: 600px;
+  background: url('/images/test-bg.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials .lhead {
+  text-align: center;
+  padding-bottom: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+#testimonials .testimonial {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.mainfooter {
+  color: white;
+  padding: 20px;
+  background: #444;
+  text-align: center;
+}
+
+#contactform .formgroup {
+  margin-bottom: 20px;
+}
+
+#contactform .formgroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contactform input,
+#contactform textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#contactform textarea {
+  height: 200px;
+}
+
+#contactform input:focus,
+#contactform textarea:focus {
+  border-color: rgb(185, 62, 185);
+  outline: none;
+}
