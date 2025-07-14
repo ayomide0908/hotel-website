@@ -240,7 +240,9 @@ h2 {
   background-size: cover;
   min-height: 400px;
 }
-
+.testimonialtext{
+  color: #f4f4f4;
+}
 #homeinfo .infocontent {
  
   text-align: center;
@@ -250,15 +252,15 @@ h2 {
 #features {
   display: flex;
 justify-content: space-between;
-  gap: 25px;
-  padding: 25px;
+  gap: 10px;
+
 }
 
 .box {
- 
-  padding: 50px;
+ width: 31%;
+  padding: 20px;
   text-align: center;
-  background: #f4f4f4;
+  background: #ffffff;
   border-radius: 10px;
 }
 #middle{
