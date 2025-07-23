@@ -367,18 +367,21 @@ padding: 0PX;
   outline: none;
 }
 
-#contactinfo .container {
-  display: flex;
+#contactinfo .can{
+
   padding: 10PX;
 background: #1a1a1a;
 
 } 
-#contactinfo .container .box{
-  width: 333px;
-  justify-content: space-between;
-  background: #1a1a1a;
-
+.can{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-evenly;
 }
+
 .showcase {
   background: url("images/hotel.jpg") no-repeat center center/cover;
   height: 800px;

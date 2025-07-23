@@ -1,0 +1,100 @@
+.navbar .logo{
+  display: block;
+}
+.navbar .container{
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+.navbar{
+  align-items: center;
+}
+#uls{
+  align-items: center;
+  justify-content: center;
+}
+ul{
+  display: block;
+  text-align: center;
+}
+.navbar ul li a {
+  padding: 5px;
+  border-bottom: dotted 1px #444;
+  align-items: center;
+}
+#hist{
+  line-height: 1.2em;
+
+}
+.box{
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+#aboutinfo .container{
+  display:flex;
+  flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+ 
+
+}
+#aboutinfo  .infoleft{
+
+padding: 10px;
+height: 215PX;
+text-align: justify;
+  margin-bottom: 0px;
+
+margin-top: -15px;
+margin-left: -10px;
+margin-right: -7px ;
+line-height: 1.3em;
+padding-bottom: -20px;
+}
+#aboutinfo .inforight{
+  width: 390PX;
+  height: 250px;
+  justify-content: center;
+align-items: center;
+margin-left: 30PX;
+margin-top: -40px;
+ 
+ 
+}
+.lhead{
+  margin-top: -80px ;
+  line-height: 33PX;
+
+}
+#testimonials {
+  height: 900px;
+  background: url("images/test-bg.jpg") no-repeat center center/cover;
+
+
+}
+
+.can{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+width: 100%;
+}
+ 
+.bxn1{
+  width: 700px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 700px;
+
+}
+  .bxn i {
+    margin-bottom: 10px;
+  }
+  .col{
+    width: 100%;
+  }
+  
